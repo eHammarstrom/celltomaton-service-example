@@ -40,7 +40,7 @@ postData.Array = arr;
 
 $(document).ready(() => {
 	$.ajax({
-		url: 'http://95.85.41.186/',
+		url: 'http://eah.space:8181/',
 		type: 'POST',
 		data: JSON.stringify(postData),
 		dataType: 'json',
